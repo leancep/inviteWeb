@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/candeycamilo', function () {
+    return view('candeYCamilo');
+});
+
+//Route::get('/casamientoTest', 'CasamientoController@index');

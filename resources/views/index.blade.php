@@ -10,7 +10,7 @@
   <link href="{{asset('css/app.css')}}" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Leckerli+One&display=swap" rel="stylesheet">
-
+<!--link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">-->
   <link id="css-preset" href="{{asset('css/presets/preset1.css')}}" rel="stylesheet">
 
 
@@ -186,6 +186,7 @@
      <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <br><br><br><br><br><br>
         </div>
       </div>
      </div>
@@ -356,8 +357,7 @@
       <div class="container">
         <div class="row">
           <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>{{ __('msg.contactUs')}}</h2>
-            <p>{{ __('msg.dataContactUs1')}}</p>
+            <h2>CONTACTATE CON NOSOTROS</h2>
           </div>
         </div>
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -384,18 +384,19 @@
                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
                  </div>
                  <div class="form-group">
-                   <button type="submit" class="btn-submit">Send Now</button>
+                   <button type="submit" class="btn-submit">Send Now!</button>
                  </div>
                 </form>
             </div>
             <div class="col-sm-6">
               <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p>{{ __('msg.dataContactUs2')}}</p>
+                <p>Contactanos!</p>
                 <ul class="address">
                   <!-- <li><i class="fa fa-map-marker"></i> <span> {{ __('msg.address')}}</span> Juan Carlos Cruz 2360, Vicente López</li> -->
-                  <li><i class="fa fa-phone"></i> <span>{{ __('msg.phone')}} </span> +928 336 2000  </li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> info@bsmartlab.com</a></li>
-                  <li><i class="fa fa-globe"></i> <span>{{ __('msg.website')}} </span> <a href="#">www.bsmartlab.com</a></li>
+                  <li><i class="fa fa-phone"></i> <span> Telefono: </span> +54 11 67834985  </li>
+                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> leanceps2@gmail.com</a></li>
+                  <li><i class="fa fa-globe"></i> <span>Web: </span> <a href="#">www.veniConmigo.com</a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=1176834985&text=Veni%20Conmigo%20Invitaciones!"><img src="images/whatsapp.png" alt="Whats App!" style="float:right;" width="150" height="100" /></a></li>
                 </ul>
               </div>
             </div>
